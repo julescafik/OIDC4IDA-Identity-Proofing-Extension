@@ -42,7 +42,7 @@ This specification extends the OpenID Identity Assurance Schema Definition 1.0 b
 
 ## Assurance Namespace
 
-To enable cross-format interoperability of proofing claims, implementations MUST utilize the registered OpenID IDA Assurance namespace: 
+To enable cross-format interoperability of proofing claims, implementations MUST utilize the registered OpenID IDA Assurance namespace:
 * **ISO/IEC 18013-5/7 (CBOR mdoc):** `org.openid.ida.assurance.1`
 * **W3C Verifiable Credentials (JSON/SD-JWT):** `assurance_level` property mapped within the credential `@context`.
 
@@ -87,7 +87,7 @@ Provides the methodology used by the Issuer to validate the identity evidence du
 
 **Requirement:** Verify the credential was issued under recognized, government-mandated proofing standards.
 
-**Implementation:** Establish a standardized, format-agnostic namespace (e.g., `org.openid.ida.assurance.1`) that Issuers MUST incorporate natively into the credential to explicitly declare the proofing standards met. 
+**Implementation:** Establish a standardized, format-agnostic namespace (e.g., `org.openid.ida.assurance.1`) that Issuers MUST incorporate natively into the credential to explicitly declare the proofing standards met.
 
 **RP Action:** RPs SHOULD explicitly request proofing data elements from this namespace via Selective Disclosure during the presentation phase to evaluate the native assurance level of the Issuer's vetting process prior to full PII payload extraction.
 

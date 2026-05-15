@@ -1,4 +1,4 @@
-content = """**Workgroup:**
+**Workgroup:**
 OpenID eKYC-IDA  
 **Published:**
 15 May 2026  
@@ -89,5 +89,5 @@ Provides the methodology used by the Issuer to validate the identity evidence du
 Juliana Cafik  
 Independent  
 Email: juliana@cafik.ca  
-"""
+
  
